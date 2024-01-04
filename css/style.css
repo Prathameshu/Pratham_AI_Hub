@@ -335,9 +335,11 @@ a:focus {
 
 .service_section .box a {
   padding: 6px 25px;
-  border: 1px solid #000000;
-  background-color: rgb(0, 229, 255);
+  border: 2px solid;
+  /* background-color: rgb(0, 229, 255); */
+  border-image:3px  solid  url(../images/hero-bg.jpg);
   color: black;
+  box-shadow:2px 2px 2px rgb(0, 255, 255);
   text-transform: uppercase;
   border-radius: 0.7rem;
 }
