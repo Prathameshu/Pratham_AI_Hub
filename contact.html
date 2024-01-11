@@ -95,11 +95,12 @@
       <div class="container contact_bg layout_padding2-top">
         <div class="row">
           <div class="col-md-6">
-            <div class="contact_form ">
-              <form action="">
-                <input type="text" placeholder="Name ">
-                <input type="email" placeholder="Email">
-                <input type="text" placeholder="Message" class="message_input">
+            <div class="contact_form" target:blank>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="09d28507-55fe-4cff-8005-fcc3a19e0e5f">
+                <input type="text" name="name" placeholder="Name " class="contact-input" required>
+                <input type="email" name="email" placeholder="Email " class="contact-input" required>
+                <input type="message" name="message" placeholder="Message" class="contact-input" required>
                 <button>
                   Send
                 </button>
