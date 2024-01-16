@@ -84,7 +84,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit- : none;
-           : none;
+  
 }
 
 .navbar-brand {
@@ -95,6 +95,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
 }
+
 
 .navbar-brand img {
   width: 20px;
@@ -115,6 +116,7 @@ a:focus {
 
 .custom_nav-container .navbar-toggler {
   outline: none;
+ 
 }
 
 .custom_nav-container .navbar-toggler .navbar-toggler-icon {

@@ -6,7 +6,7 @@
     }
 
     .slider_section {
-        /* padding-top: 45px; */
+        padding-top: 45px;
         padding-bottom: 5px;
     }
 
@@ -75,7 +75,17 @@
 
 @media (max-width: 400px) {}
 
-@media (max-width: 360px) {}
+@media (max-width: 397px) {
+   
+        .custom_nav-container .navbar-toggler{
+          position: fixed;
+          top: 12px;
+          right: 10px;
+          margin: 10px;
+
+          
+        } 
+      }
 
 @media (min-width: 1200px) {
     .container {
